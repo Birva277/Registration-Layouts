@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Registration Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+<div class="bg-img">
+	<div class="row">
+		<div class="col-sm-6">
+			<img src="registerimg1.png" class="img-responsive" alt="registerimg" width="100%" height="100%">
+		</div>
+		<div class="col-sm-6">
+			<h1 align="center">REGISTRATION FORM</h1>
+			<form action="/action_page.php">
+				<div class="row">
+					<div class="col">
+						<input type="text" name="name" id="name" class="form-control" placeholder="First Name*" required="">
+					</div>
+					<div class="col">
+						<input type="text" name="name" id="name" class="form-control" placeholder="Middle Name*" required="">
+					</div>
+					<div class="col">
+						<input type="text" name="name" id="name" class="form-control" placeholder="Last Name*" required="">
+					</div>
+				</div>
+
+				<div class="form-group">
+					<label></label>
+					<input type="email" name="email" id="email" class="form-control" placeholder="Email Address*">
+				</div>
+				<div class="form-group">
+					<input type="number" name="number" id="number" class="form-control" placeholder="Phone Number*">
+				</div>
+
+				<h11>
+					please provide a valid phone number in order to verify your account. We will send you a verification code either via SMS or voice message in order to confirm you own a phone number.
+				</h11>
+			
+				<div class="row">
+					<div class="col">
+						<label></label>
+						<input type="password" name="password" placeholder="Password*" class="form-control" required>
+					</div>
+					<div class="col">
+						<label></label>
+						<input type="password" name="confirm" placeholder="Confirm Password*" class="form-control" required>
+					</div>
+				</div>
+				<br>
+				<h11> Other Information : </h11>
+				<div class="row">
+					<div class="col">
+						<input type="text" name="refcode" placeholder="Have a refferal code?" class="form-control">
+					</div>
+					<div class="col">
+						<input type="text" name="procode" placeholder="Promo Code" class="form-control">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<label></label>
+						<select name="hearabtus" class="custom-select d-block w-100" placeholder="How did you hear about us?">
+							<option>How did you hear about us?</option>
+							<option>Surfing</option>
+							<option>Friends</option>
+							<option>Institution</option>
+							<option>Other</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<label></label>
+						<select name="country" class="custom-select d-block w-100" placeholder="Country">
+							<option>Country</option>
+							<option>India</option>
+							<option>U.S.A</option>
+							<option>Canada</option>
+							<option>Other</option>
+						</select>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<label></label>
+						<input type="text" name="address" placeholder="Address Line 1" class="form-control">
+					</div>
+					<div class="col">
+						<label></label>
+						<input type="text" name="address" placeholder="Appartment,Unit,Office" class="form-control">
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<label></label>
+						<input type="text" name="city" placeholder="City" class="form-control" required>
+					</div>
+
+					<div class="col">
+						<label></label>
+						<select class="custom-select d-block w-100" id="
+						state" required="">
+							<option>Choose...</option>
+							<option>Kerala</option>
+							<option>Gujarat</option>
+							<option>Maharashtra</option>
+							<option>Other</option>
+						</select>
+					</div>
+
+					<div class="col">
+						<label></label>
+						<input type="text" name="zip" class="form-control" placeholder="Zip Code" required="">
+					</div>
+				</div>
+
+				<div class="custom-control custom-checkbox">
+					<input type="checkbox" class="custom-control-input" name="conditions" id="same-address">
+					<label class="custom-control-label" for="same-address"><h11>I read and agree to terms and conditions</h11></label>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12">
+						<label></label>
+						<button class="btn btn-primary btn-block" type="submit">SIGN UP</button>
+					</div>
+				</div>
+
+				<h11>Have an account? Please sign up.</h11>
+			</form>
+			
+		</div>
+	</div>
+	
+</div>
+
+</body>
+
+</html>
